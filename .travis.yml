@@ -1,0 +1,8 @@
+branches:
+  only:
+    - main
+before_script:
+  - chmod +x ./gradlew
+  - chmod +x ./boot.sh
+script: 
+  - bash boot.sh
